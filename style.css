@@ -1,19 +1,29 @@
 body {
-	
+	background:black;
 	font-family: sans-serif;}
 
 #header{width:100%; height:auto; background:#6d7fec;}
-h1{
-	font-size:18px; color: #fff; padding: 8px 5px; }
+h1{font-size:18px; color: #fff; padding: 8px 5px; }
+	
+	#logo {width:90; height:35px;}
+	
+div {border-style:solid;
+border-color:#ca0002 ;
+   border-width:5px;
+   border-radius: 15px;}
 ul {
 margin: 0px;
 padding: 0px;
 padding-left: 15px;
 list-style: none;
 }
+img {float: left;}
+img:hover{background: url('http://cdn1.iconfinder.com/data/icons/socialmediaicons_v120/48/youtube.png') 0 0px;}
 
-li {
-border-bottom: 1px solid #b1b1b1;
+a:link {color:#ff0000; text-decoration:none;}
+a:visited {color: #ff0000; text-decoration:none;}
+
+li {background: white;
 padding: 10px;
 display: block;
 clear: both;
@@ -24,11 +34,7 @@ float: left;
 clear: left;
 font-weight:bold;
 }
-#header1{
-
-background-color: red;
-
-}
+#header1{background-color: #ca0002 ;}
 .time {
 float: left;
 padding-left: 32px;
