@@ -11,7 +11,6 @@
 
 $file = "http://rss.cnn.com/rss/edition_world.rss";
 $feed =  simplexml_load_file($file);
-//printf('<pre>%s</pre>', print_r($feed, TRUE));
 ?>
 <a href="http://cnn.com"><img id="logo" src='http://i.cdn.turner.com/cnn/.e/img/3.0/global/header/intl/hdr-globe-central.gif'/></a>
 
